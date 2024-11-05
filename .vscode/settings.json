@@ -1,0 +1,24 @@
+{
+    "telemetry.enableTelemetry": false,
+    "CRS.ObjectNamePrefix": "TST",
+    "CRS.AlSubFolderName": "Source",
+    "CRS.ExtensionObjectNamePattern": "<Prefix> <BaseNameShort>",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "DoNothing",
+    "CRS.ObjectNameSuffix": "",
+    "CRS.RenameWithGit": false,
+    "al.enableCodeActions": true,
+    "al.enableCodeAnalysis": true,
+    // "CRS.WebServerInstancePort": "8081",
+    // "alOutline.webClientPort": 8081,
+    "al.ruleSetPath": ".\\Company.ruleset.json",
+    "alOutline.defaultDataClassification": "CustomerContent",
+    "al.codeAnalyzers": [
+        "${AppSourceCop}",
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+}

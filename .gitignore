@@ -1,0 +1,6 @@
+.vscode/.alcache/*
+.vscode/rad.json
+.vscode/.altemplates/*
+.snapshots/*
+*.app
+README.md
