@@ -1,195 +1,240 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="BCTST">
     <body>
       <group id="body">
         <trans-unit id="Table 1101148525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank Security</source>
+          <target state="needs-review-translation">Sécurité compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bank Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1101148525 - Field 1850829176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Access</source>
+          <target state="needs-review-translation">Accès</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bank Security - Field Access - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1101148525 - Field 1903965330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reference code</source>
+          <target state="needs-review-translation">Code référence</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bank Security - Field Reference Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1101148525 - Field 745542804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet name</source>
+          <target state="needs-review-translation">Nom feuille</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bank Security - Field Sheet Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1101148525 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User</source>
+          <target state="needs-review-translation">Utilisateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bank Security - Field User ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2242551296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup</source>
+          <target state="needs-review-translation">Paramètre</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2242551296 - Field 3340532928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account security</source>
+          <target state="needs-review-translation">Sécurité compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Setup - Field Active Bank Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2242551296 - Field 40239207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet security</source>
+          <target state="needs-review-translation">Sécurité sur les feuilles</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Setup - Field Active Sheet Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2242551296 - Field 4196839525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pk</source>
+          <target state="needs-review-translation">Pk</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Setup - Field Pk - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3882094145 - NamedType 2816476309" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must activate bank account security</source>
+          <target state="needs-review-translation">Vous devez activer la sécurité sur les comptes bancaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Sec_Mgt - NamedType ErrActiveLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3882094145 - NamedType 3379521482" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line %1 has not been authorized for posting</source>
-          <note from="Developer" annotates="general" priority="2">%1=LineNo</note>
+          <source>You don't have autorization to activate paiement</source>
+          <target state="needs-review-translation">vous n'avez pas les autorisations nécessaires pour activer les paiements.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Sec_Mgt - NamedType ErrPaymentAutorizationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3882094145 - NamedType 1919508322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must activate sheet security</source>
+          <target state="needs-review-translation">Vous devez activé la sécurité sur les feuilles</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Sec_Mgt - NamedType ErrSheetActLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3882094145 - Method 419989908 - NamedType 1771513538" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are not authorized to use this bank account : %1</source>
+          <target state="needs-review-translation">Vous n'etes pas autorisé à utiliser ce compte bancaire : %1</target>
           <note from="Developer" annotates="general" priority="2">%1=bank</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Sec_Mgt - Method CheckUserBankAccount - NamedType ErrMsgLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3882094145 - Method 2972822404 - NamedType 1771513538" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are not authorized to use this sheet : %1 - %2</source>
+          <target state="needs-review-translation">Vous n'etes pas autorisé à travailler sur cette feuille : %1 - %2</target>
           <note from="Developer" annotates="general" priority="2">%1=sheet, %2=SheetName</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Sec_Mgt - Method CheckUserSheet - NamedType ErrMsgLbl</note>
         </trans-unit>
         <trans-unit id="Page 3635653416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account users</source>
+          <target state="needs-review-translation">Utilisateur compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Bank_Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3635653416 - Control 1682139193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bank account field.</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Bank_Security - Control Bank Account - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3635653416 - Control 1682139193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account</source>
+          <target state="needs-review-translation">Compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Bank_Security - Control Bank Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3635653416 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the User field.</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Bank_Security - Control User ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3635653416 - Control 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User</source>
+          <target state="needs-review-translation">Utilisateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Bank_Security - Control User ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 619421068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Page</source>
+          <target state="needs-review-translation">Paramètre</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Setup_Page - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 619421068 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
+          <target state="needs-review-translation">Général</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Setup_Page - Control GroupName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 619421068 - Control 3340532928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account security</source>
+          <target state="needs-review-translation">Sécurité compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Setup_Page - Control Active Bank Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 619421068 - Control 40239207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment security</source>
+          <target state="needs-adaptation">Sécurité feuilles</target>
+          <note from="XLIFF Sync" annotates="general" priority="1">Source text has changed. Please review the translation.</note>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Setup_Page - Control Active Sheet Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet users</source>
+          <target state="needs-adaptation">utilisateur compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 330949812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bank account field.</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control Sheet Model - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 330949812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet model</source>
+          <target state="needs-review-translation">Modèle feuille</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control Sheet Model - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 745542804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Sheet name field.</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control Sheet Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 745542804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet name</source>
+          <target state="needs-review-translation">Nom feuille</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control Sheet Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the User field.</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control User ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2131004263 - Control 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User</source>
+          <target state="needs-review-translation">Utilisateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Sheet_Security - Control User ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 401356441 - NamedType 407788085" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 401356441">
-          <source>You are not authorized to modify this field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST GenJrnlLine_Page - NamedType MsgLbl</note>
-        </trans-unit>
         <trans-unit id="PageExtension 401356441 - Control 1643223363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
           <source>Authorized payment</source>
+          <target state="needs-review-translation">Autorisé paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST GenJrnlLine_Page - Control TST Authorized_payment - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3621283511 - Action 4128194526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>MOD</source>
+          <target state="needs-review-translation">MOD</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Order Processor_RC - Action TST_Mod - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3621283511 - Action 1356327894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Bank account user</source>
+          <target state="needs-review-translation">Utilisateur compte bancaire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Order Processor_RC - Action TST BankAccount_User - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3621283511 - Action 1873890703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>**************</source>
+          <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Order Processor_RC - Action TST Sep - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3621283511 - Action 2242551296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Setup</source>
+          <target state="needs-review-translation">Paramètre</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Order Processor_RC - Action TST Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3621283511 - Action 3224771206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Sheet user</source>
+          <target state="needs-review-translation">Utilisateur feuille</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Order Processor_RC - Action TST Sheet_User - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3718609043 - Control 4043142871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
           <source>Can Authorized payment</source>
+          <target state="needs-review-translation">Peut autorisé paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST UserSetup_Page - Control TST Can_AuthorizedPayment - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 545378168 - Field 1643223363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>TST Authorized_payment</source>
+          <target state="needs-review-translation">Autorisé paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Gen Jrnl_Line - Field TST Authorized_payment - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 64744022 - Field 4043142871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
-          <source>Authorized payment</source>
+          <source>TST Can_AuthorizedPayment</source>
+          <target state="needs-review-translation">Peut autorisé paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST User_Setup - Field TST Can_AuthorizedPayment - Property Caption</note>
         </trans-unit>
