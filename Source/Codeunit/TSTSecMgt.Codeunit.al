@@ -13,8 +13,8 @@ codeunit 50100 "TST Sec_Mgt"
         BankAccount: Record "Bank Account";
     begin
         if (GenJournalLine."Account Type" = GenJournalLine."Account Type"::"Bank Account") then
-            if (BankAccount.Get(GenJournalLine."Account No.")) then
-                CheckUserBankAccount(BankAccount."No.");
+            if (BankAccount.Get(GenJournalLine."Account No.")) then // vérifie si un compte bancaire avec le numéro de compte spécifié dans la ligne du journal général existe
+                CheckUserBankAccount(BankAccount."No."); // vérifiaction liée à l'utilisateur pr ce cpte bancaire
 
         if (GenJournalLine."Bal. Account Type" = GenJournalLine."Bal. Account Type"::"Bank Account") then
             if (BankAccount.Get(GenJournalLine."Bal. Account No.")) then
